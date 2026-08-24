@@ -1,0 +1,1 @@
+ALTER TABLE public.ocorrencias ADD COLUMN IF NOT EXISTS documentos jsonb NOT NULL DEFAULT '[]'::jsonb;
