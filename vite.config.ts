@@ -7,6 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
+    allowedHosts: ["sb-3qqll9cas7cx.vercel.run"],
     port: 8080,
     hmr: {
       overlay: false,
